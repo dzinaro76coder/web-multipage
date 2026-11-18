@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomePage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/styles-sidebar.css" />
+    <script
+      type="text/javascript"
+      src="../javascript/app.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <ul>
+        <li>
+          <span class="logo"> DZINERO | CODING </span>
+          <button onclick="toggleSidebar()" id="toggle-btn">
+            <i class="fa-solid fa-angles-left"></i>
+          </button>
+        </li>
+        <li class="active">
+          <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            <span> Home </span>
+          </a>
+        </li>
+        <li>
+          <a href="dashboard.html">
+            <i class="fa-solid fa-sliders"></i>
+            <span> Dashboard </span>
+          </a>
+        </li>
+        <li>
+          <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+            <i class="fa-solid fa-folder-plus"></i>
+            <span> Create </span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <ul class="sub-menu">
+            <div>
+              <li><a href="#"> Folder </a></li>
+              <li><a href="#"> Document </a></li>
+              <li><a href="#"> Project </a></li>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+            <i class="fa-solid fa-list"></i>
+            <span> Todo Lists </span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <ul class="sub-menu">
+            <div>
+              <li><a href="#"> Work </a></li>
+              <li><a href="#"> Private </a></li>
+              <li><a href="#"> Coding </a></li>
+              <li><a href="#"> Gardening </a></li>
+              <li><a href="#"> School </a></li>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <a href="calendar.html">
+            <i class="fa-solid fa-calendar-days"></i>
+            <span> Calendar </span>
+          </a>
+        </li>
+        <li>
+          <a href="portfolio.html">
+            <i class="fa-solid fa-user"></i>
+            <span> Profile </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <h2>Hello world</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore in
+          facere fugit sed sint doloribus, provident repellendus nisi libero
+          cum! Exercitationem temporibus modi, magnam cupiditate quis sed. Vel
+          ratione deleniti porro numquam ea, asperiores sint!
+        </p>
+      </div>
+      <div class="container">
+        <h2>Example Heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+          nesciunt minima rem est officia quidem, quam pariatur quaerat sit ad.
+          Et perspiciatis atque itaque. In pariatur facilis repellat eligendi,
+          quia ex officiis, repellendus ipsam eos illo quidem. Perferendis
+          adipisci ab, deserunt earum nihil reprehenderit, nulla laudantium
+          eius, architecto iure incidunt.
+        </p>
+      </div>
+      <div class="container">
+        <h2>Lorem Ipsum</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quo
+          itaque assumenda. Est similique impedit praesentium aut eveniet ea
+          qui! Ipsa, magni nostrum voluptas tempora similique aspernatur rerum
+          praesentium tenetur. Hic, molestias veniam inventore voluptate
+          perspiciatis illum quis facilis, est veritatis minima neque ad
+          voluptatem rem quisquam soluta unde dolorum quia maxime atque tenetur
+          cupiditate qui quasi deleniti? Maxime iste, sapiente ipsum suscipit
+          tenetur facilis in totam nostrum officiis aut architecto est fugiat,
+          deleniti ea.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
