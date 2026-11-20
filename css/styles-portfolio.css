@@ -182,7 +182,7 @@
 
   .header .logo,
   .toggle-icon,
-  .btn, .navbar {
+  .btn {
     display: none;
   }
   .container {
