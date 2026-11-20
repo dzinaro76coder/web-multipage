@@ -174,14 +174,15 @@
   z-index: 1;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 749px) {
   body {
     grid-template-columns: 1fr;
+    transition: ease 0.3s;
   }
 
   .header .logo,
   .toggle-icon,
-  .btn {
+  .btn, .navbar {
     display: none;
   }
   .container {
@@ -233,6 +234,7 @@
   .home {
     position: relative;
     padding: 60px 6% 0;
+    transition: ease 0.3s;
   }
 
   .home-content {
